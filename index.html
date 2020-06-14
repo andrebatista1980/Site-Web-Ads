@@ -1,140 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <meta charset="UTF-8">
-        <!-- SEO - Search Engine Optimization -->
-        <meta name="author" content="André Luís de Oliveira Batista">
-        <meta name="description" content="Projeto desenvolvido para a turma do 1º ano de ADS do campus Umuarama">
-        <meta name="keywords" content = "HTML, HTML5, CSS, Bootstrap, Layout Responsivo, mobile first, Umuarama">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- custom css -->
-        <link rel="stylesheet" href="css/style.css">
-        <style>
-            
-        </style>
-        <meta charset="UTF-8">
-        <title>Portal Web - 1º aqno de Análise e Desenvolvimento de Sistemas - IFPR | Umuarama-Pr</title>
-    </head>
-    
-    <body>
-       <!-- Inicio barra de navegação -->
-       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-           <div class="container">
-               <a href="index.html" class="navbar-brand">Projeto WEB</a>
-               <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" aria-label="Menu de Navegação" aria-controls="navbarResponsive" aria-expanded="false">
-                   <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="sobre.html" class="nav-link">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="servicos.html" class="nav-link">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contato.html" class="nav-link">Contato</a>
-                       </li>
-                       <li class="nav-item dropdown">
-                           <a href="#" class="nav-link dropdown-toggle" id="dropdownProdutos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfólio</a>
-                           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownPortifolio">
-                               <a href="portfolio/trabalho1.html" class="dropdown-item">Trabalho 1</a>
-                               <a href="portfolio/trabalho2.html" class="dropdown-item">Trabalho 2</a>
-                               <a href="portfolio/trabalho3.html" class="dropdown-item">Trabalho 3</a>
-                           </div>
-                       </li>
-                       <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" id="dropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownBlog">
-                                <a href="blog/pagina1.html" class="dropdown-item">Pagina 1</a>
-                                <a href="blog/pagina2.html" class="dropdown-item">Pagina 2</a>
-                                <a href="blog/pagina3.html" class="dropdown-item">Pagina 3</a>
-                            </div>
-                        </li>
-                    </ul>
-               </div>
-           </div>
-       </nav>
-       <!-- Fim barra de navegação -->
-<!-- carrosel de imagens -->
-<header>
-    <div id="galeriaIndex" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#galeriaIndex" data-slide-to="0" class="active"></li>
-            <li data-target="#galeriaIndex" data-slide-to="1"></li>
-            <li data-target="#galeriaIndex" data-slide-to="2"></li>
-            <li data-target="#galeriaIndex" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <!-- slide 0 -->
-            <div class="carousel-item active" style="background-image: url('imagens/slide/slide1.png')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>UP! Info</h2>
-                    <p>Aqui você encontra tudo de informática para sua casa ou empresa</p>   
-                </div>
-            </div>
-            <!-- //slide 0 -->
-            <!-- slide 1 -->
-            <div class="carousel-item" style="background-image: url('imagens/slide/slide2.png')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="textoEscuro">Computadores e Notebook's</h2>
-                    <p class="textoEscuro">Computadores e Notebook's de todas as marcas e configurações que precisar!s</p>
-                </div>
-            </div>
-            <!-- //slide 1 -->
-            <!-- slide 2 -->
-            <div class="carousel-item" style="background-image: url('imagens/slide/slide3.png')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="textoEscuro">Manutenção em computadores</h2>
-                    <p class="textoEscuro">Remoção de vírus, configuração de sistemas e periféricos, backup de arquivos, tudo para manter seu PC em ordem</p>                
-                </div>
-            </div>
-            <!-- //slide 2 -->
-            <!-- slide 3 -->
-            <div class="carousel-item" style="background-image: url('imagens/slide/slide4.png')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="textoEscuro">Peças e Periféricos</h2>
-                    <p class="textoEscuro">Aqui você consegue todo e qualquer periférico que necessitar!</p>
-                </div>
-            </div>
-            <!-- //slide 3 -->
-        </div>
-        <a  href="#galeriaIndex" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <!-- <span class="sr-only">Anterior</span> -->
-        </a>
-        <a  href="#galeriaIndex" class= "carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <!-- <span class="sr-only">Próximo</span> -->
-        </a>
-    </div>
-</header>
-<!-- conteudo da pagina -->
-<div class="container">
-    <h1 class="my-4">Seja bem vindo ao Portal Web ADS</h1>
-    <div class="row">
 
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header">Serviços</h4>
-                <div class="card-body">
-                    <p class="card-text">Produtos de Informática, segurança, telefonia e muito mais. Tudo isso você encontra aqui. Manutenção a equipamentos, computadores, impressoras e periféricos.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="servicos.html" class="btn btn-primary float-right">Leia mais</a>
-                </div>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta charset="UTF-8">
+    <!-- SEO - Search Engine Optimization -->
+    <meta name="author" content="André Luís de Oliveira Batista">
+    <meta name="description" content="Projeto desenvolvido para a turma do 1º ano de ADS do campus Umuarama">
+    <meta name="keywords" content="HTML, HTML5, CSS, Bootstrap, Layout Responsivo, mobile first, Umuarama">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Portal Web - 1º aqno de Análise e Desenvolvimento de Sistemas - IFPR | Umuarama-Pr</title>
+</head>
+
+<body>
+    <!-- Inicio barra de navegação -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Projeto WEB</a>
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-label="Menu de Navegação" aria-controls="navbarResponsive" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="servicos.html" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="dropdownProdutos" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Portfólio</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownPortifolio">
+                            <a href="portfolio/trabalho1.html" class="dropdown-item">Trabalho 1</a>
+                            <a href="portfolio/trabalho2.html" class="dropdown-item">Trabalho 2</a>
+                            <a href="portfolio/trabalho3.html" class="dropdown-item">Trabalho 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="dropdownBlog" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownBlog">
+                            <a href="blog/pagina1.html" class="dropdown-item">Pagina 1</a>
+                            <a href="blog/pagina2.html" class="dropdown-item">Pagina 2</a>
+                            <a href="blog/pagina3.html" class="dropdown-item">Pagina 3</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="col-lg-4 mb-4">
+    </nav>
+    <!-- Fim barra de navegação -->
+    <!-- carrosel de imagens -->
+    <header>
+        <div id="galeriaIndex" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#galeriaIndex" data-slide-to="0" class="active"></li>
+                <li data-target="#galeriaIndex" data-slide-to="1"></li>
+                <li data-target="#galeriaIndex" data-slide-to="2"></li>
+                <li data-target="#galeriaIndex" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- slide 0 -->
+                <div class="carousel-item active" style="background-image: url('imagens/slide/slide1.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>UP! Info</h2>
+                        <p>Aqui você encontra tudo de informática para sua casa ou empresa</p>
+                    </div>
+                </div>
+                <!-- //slide 0 -->
+                <!-- slide 1 -->
+                <div class="carousel-item" style="background-image: url('imagens/slide/slide2.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="textoEscuro">Computadores e Notebook's</h2>
+                        <p class="textoEscuro">Computadores e Notebook's de todas as marcas e configurações que
+                            precisar!s</p>
+                    </div>
+                </div>
+                <!-- //slide 1 -->
+                <!-- slide 2 -->
+                <div class="carousel-item" style="background-image: url('imagens/slide/slide3.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="textoEscuro">Manutenção em computadores</h2>
+                        <p class="textoEscuro">Remoção de vírus, configuração de sistemas e periféricos, backup de
+                            arquivos, tudo para manter seu PC em ordem</p>
+                    </div>
+                </div>
+                <!-- //slide 2 -->
+                <!-- slide 3 -->
+                <div class="carousel-item" style="background-image: url('imagens/slide/slide4.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="textoEscuro">Peças e Periféricos</h2>
+                        <p class="textoEscuro">Aqui você consegue todo e qualquer periférico que necessitar!</p>
+                    </div>
+                </div>
+                <!-- //slide 3 -->
+            </div>
+            <a href="#galeriaIndex" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!-- <span class="sr-only">Anterior</span> -->
+            </a>
+            <a href="#galeriaIndex" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <!-- <span class="sr-only">Próximo</span> -->
+            </a>
+        </div>
+    </header>
+    <!-- conteudo da pagina -->
+    <div class="container">
+        <h1 class="my-4">Seja bem vindo ao Portal Web ADS</h1>
+        <div class="row">
+
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Serviços</h4>
+                    <div class="card-body">
+                        <p class="card-text">Produtos de Informática, segurança, telefonia e muito mais. Tudo isso você
+                            encontra aqui. Manutenção a equipamentos, computadores, impressoras e periféricos.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="servicos.html" class="btn btn-primary float-right">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <h4 class="card-header">Contato</h4>
                     <div class="card-body">
-                        <p class="card-text">Entre em contato conosco e vamos resolver seus problemas com informática, seja para sua residencia ou empresa, juntos faremos otimos negócios.</p>
+                        <p class="card-text">Entre em contato conosco e vamos resolver seus problemas com informática,
+                            seja para sua residencia ou empresa, juntos faremos otimos negócios.</p>
                     </div>
                     <div class="card-footer">
                         <a href="contato.html" class="btn btn-primary float-right">Leia mais</a>
@@ -142,131 +150,153 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                    <div class="card h-100">
-                        <h4 class="card-header">Sobre</h4>
-                        <div class="card-body">
-                            <p class="card-text">Saiba mais sobre nossa empresa e nossos fornecedores, contamos com profissionais com ótimas qualificações, para que seus equipamentos estejam  sempre em ótimas mãos. Onde estamos.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="sobre.html" class="btn btn-primary float-right">Leia mais</a>
-                        </div>
+                <div class="card h-100">
+                    <h4 class="card-header">Sobre</h4>
+                    <div class="card-body">
+                        <p class="card-text">Saiba mais sobre nossa empresa e nossos fornecedores, contamos com
+                            profissionais com ótimas qualificações, para que seus equipamentos estejam sempre em ótimas
+                            mãos. Onde estamos.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="sobre.html" class="btn btn-primary float-right">Leia mais</a>
                     </div>
                 </div>
-    </div> <!--fecha a Row-->
-    
-    <h2>Portfólio</h2>
-    <div class="row"> <!--Inicia segunda ROW-->
-<div class="col-lg-3 col-sm-6 Produtos-item">
-        <div class="card h-100">
-            <a href="#">
-                <img src="imagens/hd.png" alt="hd Portatil" width="400px" height="150px" class="card-img-top">
-            </a>
-                                <div class="card-body">
-                                    <h4 class="card-title">HD PORTATIL</h4>
-                    <p class="card-text">Para você carregar seu arquivos para onde quiser e com toda a segurança. Faça seus backup's de forma rapida e segura.</p>
+            </div>
+        </div>
+        <!--fecha a Row-->
+
+        <h2>Portfólio</h2>
+        <div class="row">
+            <!--Inicia segunda ROW-->
+            <div class="col-lg-3 col-sm-6 Produtos-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="imagens/hd.png" alt="hd Portatil" width="400px" height="150px" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">HD PORTATIL</h4>
+                        <p class="card-text">Para você carregar seu arquivos para onde quiser e com toda a segurança.
+                            Faça seus backup's de forma rapida e segura.</p>
+                    </div>
+
                 </div>
-              
+
+            </div>
+            <div class="col-lg-3 col-sm-6 Produtos-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="imagens/hd1.jpg" alt="HD 3,5' Seagate" width="400px" height="150px"
+                            class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">HD SEAGATE 2TB</h4>
+                        <p class="card-text">Mais espaço garantido em seu computador, com a confiança e estabilidade de
+                            uma empresa reconhecida mundialmente. Garantia de agilidade e robustes.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-sm-6 Produtos-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="imagens/proces.jpg" alt="Processadores Intel" width="250px" height="150px"
+                            class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">PROCESSADORES INTEL</h4>
+                        <p class="card-text">Processadores Intel, a marca que desponta em qualidade, mais robustos e
+                            confiaveis, para serem usados em todos os tipo de trabalhos. Intel a marca que marca!</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-sm-6 Produtos-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="imagens/Virus.jpg" alt="Remoção de Virus" width="350" height="175"
+                            class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">REMOÇÃO DE VÍRUS</h4>
+                        <p class="card-text">Manter seu computador, notebook, tablet ou celular atualizado, é muito
+                            importante, mas mesmo assim, você corre o risco de ser infectado por vírus, e nós podemos
+                            ajudar com isso, faça um orçamento.</p>
+                    </div>
+
+                </div>
+
             </div>
 
-</div>
-<div class="col-lg-3 col-sm-6 Produtos-item">
-        <div class="card h-100">
-            <a href="#">
-                <img src="imagens/hd1.jpg" alt="HD 3,5' Seagate" width="400px" height="150px" class="card-img-top">
-            </a>
-                                <div class="card-body">
-                                    <h4 class="card-title">HD SEAGATE 2TB</h4>
-                    <p class="card-text">Mais espaço garantido em seu computador, com a confiança e estabilidade de uma empresa reconhecida mundialmente. Garantia de agilidade e robustes.</p>
-                </div>
-              
+
+        </div>
+        <!--fecha segunda ROW-->
+        <div class="row">
+            <!--Inicia terceira ROW-->
+            <div class="col-lg-6">
+                <h2>Portal Web - Recursos</h2>
+                <p>Neste Projeto utilizaremos o BootStrap com os seguintes recursos:</p>
+                <ul>
+                    <li><strong>BootStrap v4</strong></li>
+                    <li>JQuery</li>
+                    <li>FontAwesome</li>
+                    <li>Formulário de contato com validações</li>
+                    <li>Elementos de fácil customização</li>
+                </ul>
+                Todos recursos utilizados foram apresentados em sala de aula, no curso Analise e
+                Desenvolvimento em informática com ótimos professores, no IFPR - Campus Umuarama.
+
+            </div>
+            <div class="col-lg-6">
+                <img src="imagens/fachada.png" alt="" class="img-fluid rounded">
+
             </div>
 
-</div>
-<div class="col-lg-3 col-sm-6 Produtos-item">
-        <div class="card h-100">
-            <a href="#">
-                <img src="imagens/proces.jpg" alt="Processadores Intel" width="250px" height="150px" class="card-img-top">
-            </a>
-                                <div class="card-body">
-                                    <h4 class="card-title">PROCESSADORES INTEL</h4>
-                    <p class="card-text">Processadores Intel, a marca que desponta em qualidade, mais robustos e confiaveis, para serem usados em todos os tipo de trabalhos. Intel a marca que marca!</p>
-                </div>
-              
+
+        </div>
+        <!--fecha terceira ROW-->
+        <hr>
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <p>Quer conferir suas notas, faltas e matérias do seu curso de Analise e Desenvolvimento em Informática.
+                    Click no botão a seguir.</p>
             </div>
-
-</div>
-<div class="col-lg-3 col-sm-6 Produtos-item">
-        <div class="card h-100">
-            <a href="#">
-                <img src="imagens/Virus.jpg" alt="Remoção de Virus" width="350" height="175" class="card-img-top">
-            </a>
-                                <div class="card-body">
-                                    <h4 class="card-title">REMOÇÃO DE VÍRUS</h4>
-                    <p class="card-text">Manter seu computador, notebook, tablet ou celular atualizado, é muito importante, mas  mesmo assim, você corre o risco de ser infectado por vírus, e nós podemos ajudar com isso, faça um orçamento.</p>
-                </div>
-              
+            <div class="col-md-4">
+                <a href="http://sigaa.ifpr.edu.br" class="btn btn-lg btn-danger btn-block">Acessar o site SIGAA -
+                    IFPR</a>
             </div>
-
-</div>
-
-
-    </div><!--fecha segunda ROW-->
-    <div class="row"><!--Inicia terceira ROW-->
-        <div class="col-lg-6">
-            <h2>Portal Web - Recursos</h2>
-            <p>Neste Projeto utilizaremos o BootStrap com os seguintes recursos:</p>
-            <ul>
-                <li><strong>BootStrap v4</strong></li>
-                <li>JQuery</li>
-                <li>FontAwesome</li>
-                <li>Formulário de contato com validações</li>
-                <li>Elementos de fácil customização</li>
-            </ul>
-            Todos recursos utilizados foram apresentados em sala de aula, no curso Analise e 
-            Desenvolvimento em informática com ótimos professores, no IFPR - Campus Umuarama.
-
-        </div>
-        <div class="col-lg-6">
-            <img src="imagens/fachada.png" alt="" class="img-fluid rounded">
-
         </div>
 
 
-    </div><!--fecha terceira ROW-->
-    <hr>
-    <div class="row mb-4">
-        <div class="col-md-8">
-            <p>Quer conferir suas notas, faltas e matérias do seu curso de Analise e Desenvolvimento em Informática. Click no botão a seguir.</p>
-        </div>
-        <div class="col-md-4">
-            <a href="http://sigaa.ifpr.edu.br" class="btn btn-lg btn-danger btn-block">Acessar o site SIGAA - IFPR</a>
-        </div>
+
+
+
     </div>
+    <!--fecha o Conteiner-->
+
+    <!-- /conteudo da pagina -->
+    <!-- rodapé -->
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+                Copyright &copy; - Portal Web - Informática[Campus Umuarama]
+            </p>
+        </div>
 
 
 
-    
-
-</div><!--fecha o Conteiner-->
-
-<!-- /conteudo da pagina -->
-<!-- rodapé -->
-
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">
-            Copyright &copy; - Portal Web - Informática[Campus Umuarama]
-        </p>
-    </div>
-</footer>
+    </footer>
 
 
 
-<!-- /rodapé -->
-<!-- fim carrosel de imagens -->
+    <!-- /rodapé -->
+    <!-- fim carrosel de imagens -->
     <!-- JAVA SCRIPT -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>    
-    <script src="js/popper.min.js"></script>  
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
 </body>
+
 </html>
