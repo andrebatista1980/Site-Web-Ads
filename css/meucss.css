@@ -1,0 +1,22 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logo {
+    background-color: rgb(239, 238, 255)
+}
+.menu {
+    background-color: #CCFFEE
+}
+.minhacor {
+    color: aquamarine;
+}
+.text-info {
+    color: yellowgreen !important;
+}
+#footer {
+    background-color: #000;
+    color: #FFF;
+    height: 100px;
+}

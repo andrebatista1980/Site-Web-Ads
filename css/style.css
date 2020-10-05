@@ -1,0 +1,18 @@
+body{
+    padding-top: 54px;    
+}
+.carousel-item{
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    -o-background-size: cover; /*opera*/
+    -moz-background-size: cover; /*mozila*/
+    -webkit-background-size: cover;/*chrome*/
+}
+.Produtos-item{
+    margin-bottom: 30px;
+}
+.textoEscuro{
+    color:darkgray;    
+}
